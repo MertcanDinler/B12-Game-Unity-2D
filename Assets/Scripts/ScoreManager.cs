@@ -33,7 +33,7 @@ public class ScoreManager
         PlayerPrefs.SetInt("high_score", score);
     }
 
-    void Reset()
+    public void Reset()
     {
         score = 0;
         score_label.text = score.ToString();

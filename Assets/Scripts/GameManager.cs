@@ -192,5 +192,6 @@ public class GameManager : MonoBehaviour
         melody_sheet = new List<Melody>();
         game_state = GameState.PC;
         user_melody_index = 0;
+        score_manager.Reset();
     }
 }
